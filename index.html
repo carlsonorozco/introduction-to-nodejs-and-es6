@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction to NodeJS and ES6</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Introduction to</h1>
+          <img src="img/nodejs_logo.png" alt="" style="background: none; box-shadow: none; border: none;">
+        </section>
+
+        <section>
+          <section>
+            <p>JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. It was inspired by Java, Scheme and Self.</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>What is NodeJS</h2>
+          </section>
+          <section>
+            <p><a href="https://github.com/nodejs/node" target="_new" title="">NodeJS</a> is an open-source JS runtime environment built on <a href="https://developers.google.com/v8/" title="">Google's V8 engine</a>.</p>
+          </section>
+          <section>
+            <h2>Myths and truths about Node.js</h2>
+          </section>
+          <section>
+            <h2>Myths:</h2>
+            <ul>
+              <li>Node.js is a framework</li>
+              <li>Relies on Chrome V8 engine only</li>
+              <li>It does not support multi-threads</li>
+              <li>Beginner developers can’t work with Node</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Actual facts:</h2>
+            <ul>
+              <li>Node.js is basically a server capable of executing JavaScript</li>
+              <li>It is an open source and cross-platform system for building web applications</li>
+              <li>It does, providing asynchronous and event-driven APIs</li>
+              <li>Any programmer familiar with JavaScript can learn Node quickly</li>
+            </ul>
+          </section>
+          <section>
+            <h2>What are the key features of NodeJS?</h2>
+          </section>
+          <section>
+            <p>NodeJS uses an event-driven IO model and is designed to scale through non-blocking calls in a single threaded environment. NodeJS comes with a standard library which includes the most common utils for web and backend programming. NodeJS also comes bundled with NPM package manager.</p>
+          </section>
+          <section>
+            <h2>What is Node REPL?</h2>
+          </section>
+          <section>
+            <p>REPL stands for Read Eval Print Loop and it represents a computer environment like a Windows console or Unix/Linux shell where a command is entered and the system responds with an output in an interactive mode. </p>
+          </section>
+          <section>
+            <p>Node.js or Node comes bundled with a REPL environment. It performs the following tasks:</p>
+            <ul>
+              <li>Read − Reads user's input, parses the input into JavaScript data-structure, and stores in memory.</li>
+              <li>Eval − Takes and evaluates the data structure.</li>
+              <li>Print − Prints the result.</li>
+              <li>Loop − Loops the above command until the user presses ctrl-c twice.</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>What is NPM?</h2>
+          </section>
+          <section>
+            <p>NPM is the default package manager for NodeJS. At present, it claims to be the default package manager for the entire JS ecosystem.</p>
+          </section>
+          <section>
+            <h2>What are the key features of NPM?</h2>
+          </section>
+          <section>
+            <p>NPM holds the largest registry of open-source libraries in the world. The registry has no vetting process, so anyone can publish a package of any quality. NPM is written in JavaScript and consists of a CLI client and remote registy powered by CouchDB.</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Knowledge check</h2>
+          </section>
+          <section>
+            <a href="http://paqmind.com/courses/nodejs-beginner/" target="_new" title="">http://paqmind.com/courses/nodejs-beginner/</a>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>What is ECMAScript (ES)?</h2>
+          </section>
+          <section>
+            <p>A language standardized by ECMA International and overseen by the TC39 committee. This term is usually used to refer to the standard itself.</p>
+          </section>
+          <section>
+            <h2>What is ECMAScript 5 (ES5)?</h2>
+          </section>
+          <section>
+            <p>The 5th edition of ECMAScript, standardized in 2009. This standard has been implemented fairly completely in all modern browsers</p>
+          </section>
+          <section>
+            <h2>What is ECMAScript 6 (ES6)/ ECMAScript 2015 (ES2015)?</h2>
+          </section>
+          <section>
+            <p>The 6th edition of ECMAScript, standardized in 2015. This standard has been partially implemented in most modern browsers. To see the state of implementation by different browsers and tools, check out <a href="http://kangax.github.io/compat-table/es6/" target="_new" title="">these compatibility tables</a>.</p>
+          </section>
+          <section>
+            <h2>What is ECMAScript 2016?</h2>
+          </section>
+          <section>
+            <p>The expected 7th edition of ECMAScript. This is scheduled to be released next summer. The details of what the spec will contain have not been finalized yet</p>
+          </section>
+          <section>
+            <h2>What is ECMAScript Proposals?</h2>
+          </section>
+          <section>
+            <p>Proposed features or syntax that are being considered for future versions of the ECMAScript standard. These move through a process of five stages: Strawman, Proposal, Draft, Candidate and Finished.</p>
+          </section>
+          <section>
+            <p>Visit<a href="http://node.green/" target="_new" title="">http://node.green/</a> for NodeJS support for ES Versions</p>
+          </section>
+          <section>
+            <h2>Overview of ES6</h2>
+            <a href="http://exploringjs.com/es6/ch_overviews.html" target="_new" title="">http://exploringjs.com/es6/ch_overviews.html</a>
+          </section>
+        </section>
+
+        <section>
+          <img src="img/questions.jpg" alt="" style="background: none; box-shadow: none; border: none;">
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
